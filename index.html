@@ -11,30 +11,24 @@
     
     <h1 class="titel" id="ganzoben">Laborarbeit Modul 307</h1>
 
-    <h2 class="untertitel-header" id="sprungnachoben">Interaktive Webmodule selber programmieren</h2>
-    <hr/>
-    <div id="inhaltsverzeichnis">
-        <dl>
-            <div id="dropdown_start"> <dt> <a class="link_text" href="#sprungnachoben" id="inhaltsverzeichnis_start">Start</a></dt></div>
-            <div class="dropdown_inhalt">
-                <dt><a href="#registerkarten">Registerkarten</a></dt>
-                <dt><a href="#accordions">Accordions</a></dt>
-
-
-
-            </div>
-        </dl>
-    </div>
-
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Menü</button>
-        <div id="myDropdown" class="dropdown-content">
-            <a href="#">Start</a>
-            <a href="#registerkarten">Registerakten</a>
-            <a href="#accordions">Accordions</a>
-
+    <div id="navbar">
+        <div class="leftnav">
+<img  id="siglogonav" src="img/SIG-logo-0384864A82-seeklogo.com.png">
         </div>
-    </div>
+        <div class="rightnav">
+        <a href="#registerkarten">Registerkarten</a>
+        <a href="#accordions">Accordions</a>
+        <a href="#diashow">Diashow</a>
+        </div>
+      </div>
+      
+      <div id="grossesbildtitel">
+          <canvas height="300px"></canvas>
+      </div>
+
+
+    
+    <h2 class="untertitel-header" id="sprungnachoben">Interaktive Webmodule selber programmieren</h2>
 
     <div id="content">
         <h1 class="titel_ueberthemen" id="registerkarten">Registerkarten</h1>
@@ -81,7 +75,23 @@
         }
     </script>
     <script src="scirpt.js"></script>
-
+<script>// When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+    
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }</script>
 
 
 
