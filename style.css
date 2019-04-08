@@ -244,9 +244,8 @@ div#inhaltsverzeichnis{
         color: white;
         bottom: 0;
         margin-top: 10%;
-        border-radius: 20px;
-        margin-right: 7px;
-        margin-left: 7px;
+       
+    
     }
     #footerindex{
         display: flex;
@@ -256,9 +255,7 @@ div#inhaltsverzeichnis{
         bottom: 0;
         margin-top: 10%;
         margin-bottom: 0%;
-        border-radius: 20px;
-        margin-right: 7px;
-        margin-left: 7px;
+      
     }
     .bilder_nebeneinander {
         display: inline-block;
@@ -730,4 +727,7 @@ h1#accordions{
     margin-bottom: 35px;
     margin-top: 90px;
     background: none;
+}
+div#diashow {
+    margin: 0px 25%;
 }
