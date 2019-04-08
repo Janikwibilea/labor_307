@@ -681,3 +681,9 @@ iframe{
     background-color: black;
     color: white;
 }
+a:hover{
+    color: yellow;
+}
+.links:hover{
+    color: yellow;
+}
