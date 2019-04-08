@@ -254,8 +254,8 @@ div#inhaltsverzeichnis{
         background-color:rgb(51, 51, 51);
         color: white;
         bottom: 0;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 10%;
+        margin-bottom: 0%;
         border-radius: 20px;
         margin-right: 7px;
         margin-left: 7px;
@@ -655,6 +655,7 @@ iframe{
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    border-right: 2px solid black;
   }
   
 
@@ -691,6 +692,7 @@ iframe{
   }
 #grossesbildtitel{
     background-image: url("img/cdbf7b42cc6fb7f6946b2b95646b8778.jpg");
+    background-attachment: fixed;
 }
 #textcanvas{
     position: absolute;
@@ -714,6 +716,7 @@ h1#ganzoben {
 }
 #navbar a:hover{
     color: gold;
+    border-bottom: 1px solid yellow;
 }
 h1#registerkarten {
     width: 45%;
