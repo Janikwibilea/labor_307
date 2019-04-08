@@ -529,7 +529,7 @@ margin-left: 1%;
       color: #f1f1f1;
       margin-top: 0;
       padding-bottom: 40px;
-      text-shadow: 5px 5px 5px black;
+      text-shadow: 10px 10px 10px black;
       }
     #name {
         text-align: left;
@@ -747,15 +747,29 @@ h1#accordions{
     top: -20px;
     margin-right: 10%;
     color: white;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 #col1{
     float: left;
     margin-left: 10%;
     color: white;
+    margin-bottom: 7%;
+}
+#col3{
+    float: left;
+    margin-left: 10%;
+    color: white;
+    margin-top: 5.5%;
+    margin-bottom: 10%;
+    
+}
+#col4{
+    float: right;
+    margin-right: 10%;
+    color: white;
+    margin-top: 5.5%;
     margin-bottom: 10%;
 }
-
 
 
 
@@ -808,4 +822,13 @@ p{
 }
 .linkuebersicht:hover{
     color: gold;
+}
+
+#spalte1{
+    width: 100%;
+    float: left;
+}
+#spalte2{
+    float: left;
+    width: 100%;
 }

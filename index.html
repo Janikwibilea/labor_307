@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="icon" href="img/sig_favicon.ico" type="image/x-icon"/>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         </div>
         <div class="rightnav">
 
-            <a href="index.html">Übersicht</a>
+            <a href="index.html" style="color: gold;">Übersicht</a>
             <a href="registerkarten.html">Registerkarten</a>
             <a href="accordions.html">Accordions</a>
             <a href="diashow.html">Diashow</a>
@@ -37,8 +38,8 @@
         </canvas>
         <div id="content">
         </div>
-        <div id="col1" data-aos="fade-up"
-        >
+        <div id="spalte1">
+        <div id="col1" data-aos="flip-right">
 
             <ul class="accordion">
                 <li>
@@ -49,16 +50,14 @@
                             Element untergeordnet sind nur dann anzuzeigen wenn diese übergeordneten Elemente angeklickt
                             werden.
                            
-                        </p>
+                        </p><br><br><br>
                         <a class="linkuebersicht" href="accordions.html" >⇨ Zur Unterseite mit einem Beispiel</a>
                     </div>
                 </li>
             </ul>
 
-<h1>hello</h1>
-
         </div>
-        <div id="col2" >
+        <div id="col2"  data-aos="flip-right">
 
 
             <ul class="accordion">
@@ -75,14 +74,58 @@
                         <a class="linkuebersicht" href="registerkarten.html" >⇨ Zur Unterseite mit einem Beispiel</a>
                     </div>
                 </li>
+                </ul>
+        </div>
+        </div>
+</div>
+        </div>
+        <div id="spalte2">
+        <div id="col3" data-aos="flip-left">
+
+                <ul class="accordion">
+                        <li>
+                            <button class="accordion_button" id="btn3">Diashow</button>
+                            <div class="accordiontext1" id="text3">
+                                <p class="accordiontext">Registerkarten oder auch Tabs genannt, sind auch wie bei den Akkordeons
+                                    vorerst
+                                    verborgene Textelemente die mit einem Klick ein- und ausgeblendet werden können.
+                                    Es gibt immer mehrere Reiter, und je nach dem welcher ausgewählt ist, wird entsprechend
+                                    dessen Inhalt angezeigt. Die Registerkarten werden innerhalb von einem ul-Element
+                                    erstellt. Darin sind bekanntlich li-Elemente
+                                </p><br>
+                                <a class="linkuebersicht" href="registerkarten.html" >⇨ Zur Unterseite mit einem Beispiel</a>
+                            </div>
+                        </li>
+                        </ul> 
+
+
+        </div>
+    
+        <div id="col4" data-aos="flip-left">
+
+                <ul class="accordion">
+                        <li>
+                            <button class="accordion_button" id="btn4">Modale Fenster</button>
+                            <div class="accordiontext1" id="text4">
+                                <p class="accordiontext">Registerkarten oder auch Tabs genannt, sind auch wie bei den Akkordeons
+                                    vorerst
+                                    verborgene Textelemente die mit einem Klick ein- und ausgeblendet werden können.
+                                    Es gibt immer mehrere Reiter, und je nach dem welcher ausgewählt ist, wird entsprechend
+                                    dessen Inhalt angezeigt. Die Registerkarten werden innerhalb von einem ul-Element
+                                    erstellt. Darin sind bekanntlich li-Elemente
+                                </p><br>
+                                <a class="linkuebersicht" href="registerkarten.html" >⇨ Zur Unterseite mit einem Beispiel</a>
+                            </div>
+                        </li>
+                        </ul> 
+
 
         </div>
 
 
 
 
-
-
+    </div>
 
     </div>
 
@@ -91,7 +134,7 @@
         <ul>
             <p class="footer_text">
                 <li id="name">Janik Wehrli</li>
-                <li id="doku">Lerndokumentation Modul 105</li>
+                <li id="doku">Laborarbeit Modul 307</li>
             </p>
         </ul>
     </footer>

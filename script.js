@@ -21,6 +21,14 @@ $(".bilderunten2").on("click" ,function(){
             $("#text2").toggle();
         })
 
+        $("#btn3").on("click",function(){
+            $("#text3").toggle();
+        })
+
+        $("#btn4").on("click",function(){
+            $("#text4").toggle();
+        })
+
 
         
 
