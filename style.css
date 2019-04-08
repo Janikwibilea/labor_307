@@ -27,7 +27,7 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
     top: 0;
     width: 100%;
     margin-left: -20px;
@@ -661,12 +661,23 @@ iframe{
   }
   .rightnav{
       float: right;
+      padding: 10px;
+      padding-right: 8%;
+      font-size: 20px;
   }
   #siglogonav{
-    height: 40px;
+    height: 60px;
     margin-top: 4px;
     margin-left: 10px;
+    padding-top: 2px;
+    padding-left: 70%;
   }
 #grossesbildtitel{
     background-image: url("img/cdbf7b42cc6fb7f6946b2b95646b8778.jpg");
+}
+#textcanvas{
+    position: absolute;
+    font-size: 60px;
+    background-color: black;
+    color: white;
 }
