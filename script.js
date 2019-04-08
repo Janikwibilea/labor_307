@@ -11,6 +11,21 @@ $(".bilderunten2").on("click" ,function(){
         });
 
 
+        $("#btn1").on("click",function(){
+           
+            $("#text1").toggle();
+           
+        }
+        )
+        $("#btn2").on("click",function(){
+            $("#text2").toggle();
+        })
+
+
+        
+
+
 
 
 });
+

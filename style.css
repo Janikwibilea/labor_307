@@ -253,9 +253,9 @@ div#inhaltsverzeichnis{
         background-color:rgb(51, 51, 51);
         color: white;
         bottom: 0;
-        margin-top: 10%;
+        margin-top: 20%;
         margin-bottom: 0%;
-      
+        width: 100%;
     }
     .bilder_nebeneinander {
         display: inline-block;
@@ -529,6 +529,7 @@ margin-left: 1%;
       color: #f1f1f1;
       margin-top: 0;
       padding-bottom: 40px;
+      text-shadow: 5px 5px 5px black;
       }
     #name {
         text-align: left;
@@ -728,6 +729,83 @@ h1#accordions{
     margin-top: 90px;
     background: none;
 }
-div#diashow {
-    margin: 0px 25%;
+
+
+
+#bilderreiheunten{
+
+    margin: 0px 30%;
+    
+}
+#bilderreiheoben{
+    margin: 0px 30%;
+
+}
+
+#col2{
+    float: right;
+    top: -20px;
+    margin-right: 10%;
+    color: white;
+    margin-bottom: 10%;
+}
+#col1{
+    float: left;
+    margin-left: 10%;
+    color: white;
+    margin-bottom: 10%;
+}
+
+
+
+
+.accordion{
+    list-style-type: none;
+    
+   
+    width:100%;
+    padding:0;
+    margin-top:60px;
+}
+
+.accordion_button {
+    margin-left:0;
+    width:100%;
+    padding:20px;
+    color: white;
+border-style: none;
+
+    font-size:30px;
+    display: block;
+    font-size: 40px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background-color: #333;
+}
+.accordion_button:hover{
+    color: gold;
+
+}
+
+.accordiontext1 {
+    display: none;
+}
+
+.accordiontext {
+  width:600px;
+  display:flex;
+  justify-content:center;
+}
+p{
+    font-size: 20px;
+}
+
+.linkuebersicht{
+    color: white;
+}
+.linkuebersicht:hover{
+    color: gold;
 }

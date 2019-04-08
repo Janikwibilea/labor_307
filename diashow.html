@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Labor 307 Diashow</title>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+
 
 
     <div id="navbar">
-            <div class="leftnav">
-    <img  id="siglogonav" src="img/SIG-logo-0384864A82-seeklogo.com.png">
-            </div>
-            <div class="rightnav">
-                <a href="index.html">Übersicht</a>
+        <div class="leftnav">
+            <img id="siglogonav" src="img/SIG-logo-0384864A82-seeklogo.com.png">
+        </div>
+        <div class="rightnav">
+            <a href="index.html">Übersicht</a>
             <a href="registerkarten.html">Registerkarten</a>
             <a href="accordions.html">Accordions</a>
             <a href="diashow.html">Diashow</a>
+        </div>
+    </div>
+
+    <div id="grossesbildtitel">
+        <canvas height="250px">
+
+            <div id="textcanvas">
+                <h1>Labor 307</h1>
             </div>
-          </div>
-      
-      <div id="grossesbildtitel" >
-          <canvas height="250px">
 
-                <div id="textcanvas">
-                    <h1>Labor 307</h1>
-                </div>
-
-          </canvas>
-      </div>
+        </canvas>
+    </div>
 
 
 
 
     <div id="content">
         <h1 class="titel_ueberthemen" id="registerkarten">Diashow</h1>
-<div class="text_eintraege">
-    <div id="diashow">
-        <img src="img/js.png" id="bilddiashowgross" height="300px">
-        <br>
-        <img src="img/2000px-PHP-logo.svg.png" height="100px" class="bilderunten1">
-        <img src="img/xammp.jpg" height="100px" class="bilderunten2">
-        <img src="img/Visual_Studio_2013_Logo.svg.png" height="100px" class="bilderunten3">
-        <img src="" height="100px" class="bilderunten4">
-</div>  
- </div> 
+        <div class="text_eintraege">
+            <div id="diashow">
+                <div id="bilderreiheoben">
+                <img src="img/2000px-PHP-logo.svg.png" id="bilddiashowgross" height="300px">
+                </div>
+                <br>
+                <div id="bilderreiheunten">
+                    <img src="img/2000px-PHP-logo.svg.png" height="100px" class="bilderreihe bilderunten1">
+                    <img src="img/xammp.jpg" height="100px" class="bilderreihe bilderunten2">
+                    <img src="img/Visual_Studio_2013_Logo.svg.png" height="100px" class="bilderreihe bilderunten3">
+                    <img src="" height="100px" class="bilderreihe bilderunten4"></div>
+            </div>
+        </div>
     </div>
 
     <footer id="footer">
@@ -83,28 +86,28 @@
         }
     </script>
     <script src="scirpt.js"></script>
-<script>
-    window.onscroll = function() {myFunction()};
-    
-
-    var navbar = document.getElementById("navbar");
-   
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    
-    
-    window.onload = function(){
+    <script>
+        window.onscroll = function () { myFunction() };
 
 
-    };
-    
+        var navbar = document.getElementById("navbar");
+
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+
+        window.onload = function () {
+
+
+        };
+
     </script>
     <script src="script.js"></script>
 
@@ -112,4 +115,5 @@
 
 </html>
 </body>
+
 </html>
