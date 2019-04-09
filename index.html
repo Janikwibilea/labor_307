@@ -9,8 +9,8 @@
     <title>Labor 307</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="icon" href="img/sig_favicon.ico" type="image/x-icon"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/sig_favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -41,86 +41,82 @@
 
         </div>
         <div id="spalte1">
-                <h1 id="themenuebersichth1">Themen Übersicht</h1>
-        <div id="col1" data-aos="flip-right">
+            <h1 id="themenuebersichth1">Themenübersicht</h1>
+            <div id="col1" data-aos="flip-right">
+
+                <ul class="accordion">
+                    <li>
+                        <button class="accordion_button" id="btn1">Accordions</button>
+                        <div class="accordiontext1" id="text1">
+                            <p class="accordiontext">
+                                Accordions oder auch Zieharmonikaanzeigen sind dazu da um Elemente, welche einem anderen
+                                Element untergeordnet sind nur dann anzuzeigen wenn diese übergeordneten Elemente
+                                angeklickt
+                                werden.
+
+                            </p><br><br><br>
+                            <a class="linkuebersicht" href="accordions.html">⇨ Zur Unterseite mit einem Beispiel</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="col2" data-aos="flip-right">
+
+
+                <ul class="accordion">
+                    <li>
+                        <button class="accordion_button" id="btn2">Registerkarten</button>
+                        <div class="accordiontext1" id="text2">
+                            <p class="accordiontext">Registerkarten oder auch Tabs genannt, sind auch wie bei den
+                                Akkordeons
+                                vorerst
+                                verborgene Textelemente die mit einem Klick ein- und ausgeblendet werden können.
+                                Es gibt immer mehrere Reiter, und je nach dem welcher ausgewählt ist, wird entsprechend
+                                dessen Inhalt angezeigt. Die Registerkarten werden innerhalb von einem ul-Element
+                                erstellt. Darin sind bekanntlich li-Elemente
+                            </p><br>
+                            <a class="linkuebersicht" href="registerkarten.html">⇨ Zur Unterseite mit einem Beispiel</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="spalte2">
+        <div id="col3" data-aos="flip-left">
 
             <ul class="accordion">
                 <li>
-                    <button class="accordion_button" id="btn1">Accordions</button>
-                    <div class="accordiontext1" id="text1">
-                        <p class="accordiontext">
-                            Accordions oder auch Zieharmonikaanzeigen sind dazu da um Elemente, welche einem anderen
-                            Element untergeordnet sind nur dann anzuzeigen wenn diese übergeordneten Elemente angeklickt
-                            werden.
-                           
-                        </p><br><br><br>
-                        <a class="linkuebersicht" href="accordions.html" >⇨ Zur Unterseite mit einem Beispiel</a>
+                    <button class="accordion_button" id="btn3">Diashow</button>
+                    <div class="accordiontext1" id="text3">
+                        <p class="accordiontext">Diashows ermöglichen das durchlaufen von Bildern auf einem kleinem
+                            Raum. Eine Diashow kann beispielsweise bei Produktbildern nützlich sein.
+                        </p><br>
+                        <a class="linkuebersicht" href="diashow.html">⇨ Zur Unterseite mit einem Beispiel</a>
                     </div>
                 </li>
             </ul>
 
-        </div>
-        <div id="col2"  data-aos="flip-right">
 
+        </div>
+
+        <div id="col4" data-aos="flip-left">
 
             <ul class="accordion">
                 <li>
-                    <button class="accordion_button" id="btn2">Registerkarten</button>
-                    <div class="accordiontext1" id="text2">
-                        <p class="accordiontext">Registerkarten oder auch Tabs genannt, sind auch wie bei den Akkordeons
-                            vorerst
-                            verborgene Textelemente die mit einem Klick ein- und ausgeblendet werden können.
-                            Es gibt immer mehrere Reiter, und je nach dem welcher ausgewählt ist, wird entsprechend
-                            dessen Inhalt angezeigt. Die Registerkarten werden innerhalb von einem ul-Element
-                            erstellt. Darin sind bekanntlich li-Elemente
+                    <button class="accordion_button" id="btn4">Modale Fenster</button>
+                    <div class="accordiontext1" id="text4">
+                        <p class="accordiontext">Modale Fenster werden beispielsweise dann benötigt, wenn der Benutzer
+                            Eingaben machen muss(Formular). Der Unterschied von modalen zu nicht modalen Fenster ist,
+                            dass modale Fenster den Rest der Anwendung sperren und erst verschwinden wenn der Benutzer
+                            eine Eingabe tätigt, wie in meinem Beispiel dem Klick auf das Kreuz.
                         </p><br>
-                        <a class="linkuebersicht" href="registerkarten.html" >⇨ Zur Unterseite mit einem Beispiel</a>
+                        <a class="linkuebersicht" href="modalefenster.html">⇨ Zur Unterseite mit einem Beispiel</a>
                     </div>
                 </li>
-                </ul>
-        </div>
-        </div>
-</div>
-        </div>
-        <div id="spalte2">
-        <div id="col3" data-aos="flip-left">
-
-                <ul class="accordion">
-                        <li>
-                            <button class="accordion_button" id="btn3">Diashow</button>
-                            <div class="accordiontext1" id="text3">
-                                <p class="accordiontext">Registerkarten oder auch Tabs genannt, sind auch wie bei den Akkordeons
-                                    vorerst
-                                    verborgene Textelemente die mit einem Klick ein- und ausgeblendet werden können.
-                                    Es gibt immer mehrere Reiter, und je nach dem welcher ausgewählt ist, wird entsprechend
-                                    dessen Inhalt angezeigt. Die Registerkarten werden innerhalb von einem ul-Element
-                                    erstellt. Darin sind bekanntlich li-Elemente
-                                </p><br>
-                                <a class="linkuebersicht" href="diashow.html" >⇨ Zur Unterseite mit einem Beispiel</a>
-                            </div>
-                        </li>
-                        </ul> 
-
-
-        </div>
-    
-        <div id="col4" data-aos="flip-left">
-
-                <ul class="accordion">
-                        <li>
-                            <button class="accordion_button" id="btn4">Modale Fenster</button>
-                            <div class="accordiontext1" id="text4">
-                                <p class="accordiontext">Registerkarten oder auch Tabs genannt, sind auch wie bei den Akkordeons
-                                    vorerst
-                                    verborgene Textelemente die mit einem Klick ein- und ausgeblendet werden können.
-                                    Es gibt immer mehrere Reiter, und je nach dem welcher ausgewählt ist, wird entsprechend
-                                    dessen Inhalt angezeigt. Die Registerkarten werden innerhalb von einem ul-Element
-                                    erstellt. Darin sind bekanntlich li-Elemente
-                                </p><br>
-                                <a class="linkuebersicht" href="modalefenster.html" >⇨ Zur Unterseite mit einem Beispiel</a>
-                            </div>
-                        </li>
-                        </ul> 
+            </ul>
 
 
         </div>
@@ -186,8 +182,8 @@
     </script>
 
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
         AOS.init();</script>
 
 
