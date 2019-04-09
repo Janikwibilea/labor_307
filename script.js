@@ -35,5 +35,50 @@ $(".bilderunten2").on("click" ,function(){
 
 
 
-});
 
+
+
+        var slide_width = parseInt($( ".slide img" ).css("max-width")),
+        margin = 0,
+        slideshow_width = 0,
+        animation = false,
+        autoslide;
+    $( ".slide" ).each( function() {
+        slideshow_width += slide_width;
+    });
+    slideshow_width -= slide_width;
+    autoslide = setInterval(function(){ slide("right"); }, 3000);
+    $( ".slide-control .left" ).click(function(element) {
+        slide("left");
+    });
+    $( ".slide-control .right" ).click(function(element) {
+        slide("right");
+    });
+    function slide( direction ) {
+        if (animation) return;
+        clearInterval(autoslide);
+        if (direction == "left") {
+            margin += slide_width;
+            if (margin > 0) {
+                margin = 0 - slideshow_width;
+            }
+        } else if (direction == "right") {
+            margin -= slide_width;
+            if (Math.abs(margin) > slideshow_width) {
+                margin = 0;
+            }
+        }
+        animation = true;
+        $( ".sildeshow-inner" ).animate( { "margin-left": margin + "px" }, 500, function() { animation = false; });
+        autoslide = setInterval(function(){ slide("right"); }, 3000);
+    }
+
+
+
+
+
+
+
+
+
+    });

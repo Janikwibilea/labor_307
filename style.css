@@ -827,3 +827,50 @@ p{
     width: 100%;
 
 }
+#themenuebersichth1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+#slideshow {
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+}
+.sildeshow-inner {
+    display: flex;
+    justify-content: flex-start;
+}
+.slide img {
+    min-width: 350px;
+    max-width: 350px;
+}
+.slide-control {
+    opacity: 0;
+}
+#slideshow:hover .slide-control {
+    opacity: 1;
+}
+.slide-control .left, .slide-control .right {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    bottom: 55px;
+    cursor: pointer;
+    opacity: 0.2;
+}
+.slide-control .left {
+    background: url(left.png);
+    left: 10px;
+}
+.slide-control .right {
+    background: url(right.png);
+    right: 10px;
+}
