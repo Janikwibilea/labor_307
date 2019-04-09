@@ -643,6 +643,7 @@ iframe{
 #navbar {
     overflow: hidden;
     background-color: #333;
+    z-index: 10;
   }
   
 
@@ -874,7 +875,6 @@ p{
     background: url(right.png);
     right: 10px;
 }
-
 
 
 
